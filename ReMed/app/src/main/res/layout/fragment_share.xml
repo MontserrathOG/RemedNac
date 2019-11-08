@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back">
+
+    <TextView
+        android:id="@+id/citas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textColor="@color/cardview_light_background"
+        android:text="Mis citas"
+        android:fontFamily="casual"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:id="@+id/LC"
+        android:layout_width="255dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="8dp"
+        android:text="Próximas citas"
+        android:textColor="@color/cardview_light_background"
+        app:layout_constraintEnd_toEndOf="@id/citas"
+        app:layout_constraintStart_toStartOf="@id/citas"
+        app:layout_constraintTop_toTopOf="@id/citas"/>
+    <EditText
+        android:id="@+id/LCA"
+        android:layout_width="355dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="110dp"
+        android:layout_marginEnd="8dp"
+        android:background="@color/cardview_light_background"
+        android:text="@string/cita"
+        app:layout_constraintEnd_toEndOf="@id/citas"
+        app:layout_constraintStart_toStartOf="@id/citas"
+        app:layout_constraintTop_toTopOf="@id/citas"/>
+    <Button
+        android:id="@+id/btnGeneracita"
+        android:layout_width="355dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="270dp"
+        android:layout_marginEnd="8dp"
+        android:text="Generar nueva cita"
+        app:layout_constraintEnd_toEndOf="@id/citas"
+        app:layout_constraintStart_toStartOf="@id/citas"
+        app:layout_constraintTop_toTopOf="@id/citas"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

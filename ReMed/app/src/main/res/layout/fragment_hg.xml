@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back">
+    <TextView
+        android:id="@+id/hc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textColor="@color/cardview_light_background"
+        android:text="Historial clinico general"
+        android:fontFamily="casual"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <EditText
+        android:id="@+id/TS"
+        android:layout_width="255dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="8dp"
+        android:background="@color/cardview_light_background"
+        android:text="Tipo de sangre: 0+"
+        app:layout_constraintEnd_toEndOf="@id/hc"
+        app:layout_constraintStart_toStartOf="@id/hc"
+        app:layout_constraintTop_toTopOf="@id/hc"/>
+
+    <EditText
+        android:id="@+id/altura"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="112dp"
+        android:layout_marginEnd="20dp"
+        android:background="@color/cardview_light_background"
+        android:text="Altura: 155cm"
+        app:layout_constraintEnd_toEndOf="@id/hc"
+        app:layout_constraintHorizontal_bias="0.210"
+        app:layout_constraintStart_toStartOf="@id/hc"
+        app:layout_constraintTop_toTopOf="@id/hc" />
+
+    <EditText
+        android:id="@+id/peso"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="112dp"
+        android:layout_marginEnd="20dp"
+        android:background="@color/cardview_light_background"
+        android:text="Peso: 45kg"
+        app:layout_constraintEnd_toEndOf="@id/hc"
+        app:layout_constraintHorizontal_bias="0.779"
+        app:layout_constraintStart_toStartOf="@id/hc"
+        app:layout_constraintTop_toTopOf="@id/hc" />
+    <EditText
+        android:id="@+id/imc"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="175dp"
+        android:layout_marginEnd="20dp"
+        android:background="@color/cardview_light_background"
+        android:text="IMC: 22"
+        app:layout_constraintEnd_toEndOf="@id/hc"
+        app:layout_constraintHorizontal_bias="0.210"
+        app:layout_constraintStart_toStartOf="@id/hc"
+        app:layout_constraintTop_toTopOf="@id/hc" />
+    <EditText
+        android:id="@+id/EdoAct"
+        android:layout_width="255dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="235dp"
+        android:layout_marginEnd="8dp"
+        android:background="@color/cardview_light_background"
+        android:text="Estado actual:Sano"
+        app:layout_constraintEnd_toEndOf="@id/hc"
+        app:layout_constraintStart_toStartOf="@id/hc"
+        app:layout_constraintTop_toTopOf="@id/hc"/>
+    <EditText
+        android:id="@+id/Alergias"
+        android:layout_width="255dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="295dp"
+        android:layout_marginEnd="8dp"
+        android:background="@color/cardview_light_background"
+        android:text="Alergias:Nueces, Penicilina"
+        app:layout_constraintEnd_toEndOf="@id/hc"
+        app:layout_constraintStart_toStartOf="@id/hc"
+        app:layout_constraintTop_toTopOf="@id/hc"/>
+    <EditText
+        android:id="@+id/cirugias"
+        android:layout_width="255dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="355dp"
+        android:layout_marginEnd="8dp"
+        android:background="@color/cardview_light_background"
+        android:text="Cirugias:Sin cirugias"
+        app:layout_constraintEnd_toEndOf="@id/hc"
+        app:layout_constraintStart_toStartOf="@id/hc"
+        app:layout_constraintTop_toTopOf="@id/hc"/>
+    <EditText
+        android:id="@+id/Adicciones"
+        android:layout_width="255dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="415dp"
+        android:layout_marginEnd="8dp"
+        android:background="@color/cardview_light_background"
+        android:text="Adicciones:Tabaco"
+        app:layout_constraintEnd_toEndOf="@id/hc"
+        app:layout_constraintStart_toStartOf="@id/hc"
+        app:layout_constraintTop_toTopOf="@id/hc"/>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

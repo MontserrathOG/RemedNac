@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back">
+
+    <TextView
+        android:id="@+id/text_home"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textColor="@color/cardview_light_background"
+        android:text="@string/perfil"
+        android:fontFamily="casual"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/nombre"
+        android:layout_width="217dp"
+        android:layout_height="45dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/nombre"
+        tools:layout_editor_absoluteX="92dp"
+        tools:layout_editor_absoluteY="74dp"
+        android:background="@color/cardview_light_background"/>
+
+    <EditText
+        android:id="@+id/apaterno"
+        android:layout_width="217dp"
+        android:layout_height="45dp"
+        android:background="@color/cardview_light_background"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/apaterno"
+        tools:layout_editor_absoluteX="92dp"
+        tools:layout_editor_absoluteY="147dp" />
+
+    <EditText
+        android:id="@+id/amaterno"
+        android:layout_width="217dp"
+        android:layout_height="45dp"
+        android:background="@color/cardview_light_background"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/amaterno"
+        tools:layout_editor_absoluteX="92dp"
+        tools:layout_editor_absoluteY="214dp" />
+
+    <EditText
+        android:id="@+id/fecha"
+        android:layout_width="217dp"
+        android:layout_height="45dp"
+        android:background="@color/cardview_light_background"
+        android:ems="10"
+        android:inputType="date"
+        android:text="@string/fecha"
+        tools:layout_editor_absoluteX="92dp"
+        tools:layout_editor_absoluteY="279dp" />
+
+    <EditText
+        android:id="@+id/domicilio"
+        android:layout_width="217dp"
+        android:layout_height="45dp"
+        android:background="@color/cardview_light_background"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/domicilio"
+        tools:layout_editor_absoluteX="92dp"
+        tools:layout_editor_absoluteY="341dp" />
+
+    <EditText
+        android:id="@+id/telefono"
+        android:layout_width="217dp"
+        android:layout_height="45dp"
+        android:background="@color/cardview_light_background"
+        android:ems="10"
+        android:inputType="phone"
+        android:text="@string/telefono"
+        tools:layout_editor_absoluteX="92dp"
+        tools:layout_editor_absoluteY="410dp" />
+
+    <EditText
+        android:id="@+id/correo"
+        android:layout_width="217dp"
+        android:layout_height="45dp"
+        android:background="@color/cardview_light_background"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:text="@string/correo"
+        tools:layout_editor_absoluteX="92dp"
+        tools:layout_editor_absoluteY="473dp" />
+
+    <EditText
+        android:id="@+id/contraseña"
+        android:layout_width="217dp"
+        android:layout_height="45dp"
+        android:background="@color/cardview_light_background"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:text="@string/contraseña"
+        tools:layout_editor_absoluteX="92dp"
+        tools:layout_editor_absoluteY="533dp" />
+
+    <Button
+        android:id="@+id/mod"
+        android:layout_width="119dp"
+        android:layout_height="54dp"
+        android:text="Modificar"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="615dp" />
+
+    <Button
+        android:id="@+id/can"
+        android:layout_width="101dp"
+        android:layout_height="53dp"
+        android:text="Cancelar"
+        tools:layout_editor_absoluteX="228dp"
+        tools:layout_editor_absoluteY="615dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
